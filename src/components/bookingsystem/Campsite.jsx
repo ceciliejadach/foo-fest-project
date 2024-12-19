@@ -75,6 +75,7 @@ export default function Campsite({ state, formAction, setReservedId }) {
   };
 
   const updateCampsite = (campsite, availableSpots) => {
+    console.log(state.step, "tjekket der kan ændre alt");
     console.log("campsite", campsite, "availablSpots", availableSpots);
     setCart((prev) => {
       return {
