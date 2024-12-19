@@ -178,7 +178,7 @@ export default function Page() {
   console.log(state);
   useEffect(() => {
     if (timeOut <= 0) {
-      alert("Tiden er udløbet. du bliver stillet tilbage til billetsiden.");
+      // alert("Tiden er udløbet. du bliver stillet tilbage til billetsiden.");
       formAction(null);
       return;
     }

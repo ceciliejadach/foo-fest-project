@@ -14,7 +14,7 @@ const ceasarDressing = Caesar_Dressing({
 });
 
 export default function Campsite({ state, formAction, setReservedId, setTimeOut }) {
-  const [spots, setSpots] = useState([]);
+  const [spots, setSpots] = useState(0);
   const [cart, setCart] = useContext(CartContext);
   const [twoPersonCount, setTwoPersonCount] = useState(0);
   const [threePersonCount, setThreePersonCount] = useState(0);
